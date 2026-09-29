@@ -91,11 +91,13 @@ export const NavItems = ({
                 className
             )}>
             {items.map((item, idx) => (
+
                 <a
                     onMouseEnter={() => setHovered(idx)}
                     onClick={onItemClick}
                     className="relative px-4 py-2 text-neutral-600 dark:text-neutral-300"
                     key={`link-${idx}`}
+                    target={item.name === "Curriculum Vitae" ? "_blank" : "_self"}
                     href={item.link}>
                     {hovered === idx && (
                         <motion.div
@@ -199,7 +201,7 @@ export const NavbarLogo = () => {
                 alt="logo"
                 width={30}
                 height={30} />
-            <span className="font-medium text-black dark:text-white">Startup</span>
+            {/* <span className="font-medium text-black dark:text-white">Startup</span> */}
         </a>
     );
 };
