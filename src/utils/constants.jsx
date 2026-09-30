@@ -68,12 +68,14 @@ export const stickyContent = [
 ];
 
 export const images = [
-    "https://assets.aceternity.com/components/hero-section-with-mesh-gradient.webp",
-    "https://assets.aceternity.com/components/3d-globe.webp",
-    "https://assets.aceternity.com/components/keyboard-2.webp",
-    "https://assets.aceternity.com/components/hero-1.webp",
-    "https://assets.aceternity.com/components/hero-2.webp",
-    "https://assets.aceternity.com/components/hero-3.webp",
+    {
+        src: "src/assets/projects/tokoperabot.png",
+        link: "https://github.com/RandyNasuta/tokoperabot"
+    },
+    {
+        src: "src/assets/projects/perbana.png",
+        link: "https://github.com/RandyNasuta/Perbana"
+    },
 ];
 
 export const products = [
@@ -127,78 +129,127 @@ export const products = [
         link: "https://www.dicoding.com/certificates/4EXG532MQXRL",
         thumbnail: "src/assets/certificate/certificate_10.jpg",
     },
-    
-    // {
-    //     title: "Cursor",
-    //     link: "https://cursor.so",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/cursor.png",
-    // },
-    // {
-    //     title: "Rogue",
-    //     link: "https://userogue.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/rogue.png",
-    // },
+];
 
-    // {
-    //     title: "Editorially",
-    //     link: "https://editorially.org",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/editorially.png",
-    // },
-    // {
-    //     title: "Editrix AI",
-    //     link: "https://editrix.ai",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/editrix.png",
-    // },
-    // {
-    //     title: "Pixel Perfect",
-    //     link: "https://app.pixelperfect.quest",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-    // },
-
-    // {
-    //     title: "Algochurn",
-    //     link: "https://algochurn.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/algochurn.png",
-    // },
-    // {
-    //     title: "Aceternity UI",
-    //     link: "https://ui.aceternity.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/aceternityui.png",
-    // },
-    // {
-    //     title: "Tailwind Master Kit",
-    //     link: "https://tailwindmasterkit.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-    // },
-    // {
-    //     title: "SmartBridge",
-    //     link: "https://smartbridgetech.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/smartbridge.png",
-    // },
-    // {
-    //     title: "Renderwork Studio",
-    //     link: "https://renderwork.studio",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/renderwork.png",
-    // },
-
-    // {
-    //     title: "Creme Digital",
-    //     link: "https://cremedigital.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/cremedigital.png",
-    // },
-    // {
-    //     title: "Golden Bells Academy",
-    //     link: "https://goldenbellsacademy.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-    // },
-    // {
-    //     title: "Invoker Labs",
-    //     link: "https://invoker.lol",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/invoker.png",
-    // },
-    // {
-    //     title: "E Free Invoice",
-    //     link: "https://efreeinvoice.com",
-    //     thumbnail: "https://www.aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-    // },
+export const projects = [
+    {
+        title: "Belajar Dasar Pemrograman JavaScript",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_1.jpg"
+                alt="Belajar Dasar Pemrograman JavaScript"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/1OP82GV3LPQK",
+    },
+    {
+        title: "Memulai Pemrograman dengan Python",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_2.jpg"
+                alt="Memulai Pemrograman dengan Python"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/4EXG7O9YDPRL",
+    },
+    {
+        title: "Belajar Dasar Structured Query Language (SQL)",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_3.jpg"
+                alt="Belajar Dasar Structured Query Language (SQL)"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/2VX34V91NZYQ",
+    },
+    {
+        title: "Belajar Dasar Data Science",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_4.jpg"
+                alt="Belajar Dasar Data Science"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/0LZ04YL6NP65",
+    },
+    {
+        title: "Belajar Prinsip Pemrograman SOLID",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_5.jpg"
+                alt="Belajar Prinsip Pemrograman SOLID"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/07Z68Q6YWXQR",
+    },
+    {
+        title: "Belajar Membuat Aplikasi Android untuk Pemula",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_6.jpg"
+                alt="Belajar Membuat Aplikasi Android untuk Pemula"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/L4PQ85652ZO1",
+    },
+    {
+        title: "Memulai Pemrograman dengan Kotlin",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_7.jpg"
+                alt="Memulai Pemrograman dengan Kotlin"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/MRZML8J8NXYQ",
+    },
+    {
+        title: "Java (Basic) Certificate",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_8.png"
+                alt="Java (Basic) Certificate"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.hackerrank.com/certificates/d0417eabca34",
+    },
+    {
+        title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_9.jpg"
+                alt="Belajar Membuat Aplikasi Flutter untuk Pemula"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/72ZDOJ4L6XYW",
+    },
+    {
+        title: "Memulai Pemrograman dengan Dart",
+        description: (
+            <img
+                src="src/assets/certificate/certificate_10.jpg"
+                alt="Memulai Pemrograman dengan Dart"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/4EXG532MQXRL",
+    },
 ];

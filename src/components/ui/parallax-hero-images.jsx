@@ -4,14 +4,14 @@ import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
 import { cn } from "@/lib/utils";
 
 const positionStyles = {
-    "top-left": { top: "8%", left: "4%" },
-    "top-right": { top: "8%", right: "4%" },
-    "mid-left": { top: "38%", left: "6%" },
-    "mid-right": { top: "38%", right: "6%" },
-    "bottom-left": { top: "68%", left: "4%" },
-    "bottom-right": { top: "68%", right: "4%" },
-    "far-left": { top: "52%", left: "2%" },
-    "far-right": { top: "52%", right: "2%" },
+    "top-left": { top: "12%", left: "18%" },
+    "top-right": { top: "12%", right: "18%" },
+    "mid-left": { top: "38%", left: "22%" },
+    "mid-right": { top: "38%", right: "22%" },
+    "bottom-left": { top: "64%", left: "18%" },
+    "bottom-right": { top: "64%", right: "18%" },
+    "far-left": { top: "50%", left: "12%" },
+    "far-right": { top: "50%", right: "12%" },
 };
 
 const positionOrder = [
@@ -47,8 +47,9 @@ export const ParallaxHeroImages = ({
     const positions = useMemo(() => {
         const limitedImages = images.slice(0, 8);
         const depthValues = depthValuesByVariant[variant];
-        return limitedImages.map((src, index) => ({
-            src,
+        return limitedImages.map((item, index) => ({
+            src: typeof item === "string" ? item : item.src,
+            link: typeof item === "string" ? "#" : item.link,
             position: positionOrder[index],
             depth: depthValues[index],
             delay: index * 0.12,
@@ -69,11 +70,12 @@ export const ParallaxHeroImages = ({
 
     return (
         <div
-            className={cn("pointer-events-none absolute inset-0 overflow-hidden", className)}>
+            className={cn("absolute inset-0 overflow-hidden", className)}>
             {positions.map((pos, index) => (
                 <ParallaxImage
                     key={`${pos.src}-${index}`}
                     src={pos.src}
+                    link={pos.link}
                     position={pos.position}
                     depth={pos.depth}
                     delay={pos.delay}
@@ -87,6 +89,7 @@ export const ParallaxHeroImages = ({
 
 const ParallaxImage = memo(function ParallaxImage({
     src,
+    link,
     position,
     depth,
     delay,
@@ -101,6 +104,12 @@ const ParallaxImage = memo(function ParallaxImage({
     const translateY = useTransform(smoothMouseY, [-1, 1], [-maxOffset * depth, maxOffset * depth]);
 
     const posStyle = positionStyles[position];
+
+    const handleClick = () => {
+        if (link && link !== "#") {
+            window.open(link, "_blank", "noopener,noreferrer");
+        }
+    }
 
     return (
         <motion.div
@@ -125,6 +134,7 @@ const ParallaxImage = memo(function ParallaxImage({
                 alt=""
                 loading="lazy"
                 decoding="async"
+                onClick={handleClick}
                 className={cn(
                     "aspect-4/3 h-20 w-32 rounded-lg object-cover shadow-sm ring-1 ring-black/10 sm:h-40 sm:w-56 md:h-52 md:w-80 dark:ring-white/10",
                     imageClassName

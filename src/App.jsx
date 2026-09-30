@@ -7,7 +7,8 @@ import { BackgroundLines } from './components/ui/background-lines';
 import { StickyScroll } from './components/ui/sticky-scroll-reveal';
 import { ParallaxHeroImages } from './components/ui/parallax-hero-images';
 import { HeroParallax } from './components/ui/hero-parallax';
-import { navItems, stickyContent, images, products } from './utils/constants';
+import { navItems, stickyContent, images, projects } from './utils/constants';
+import { HoverEffect } from './components/ui/hover-effect';
 
 function App() {
   return (
@@ -122,11 +123,10 @@ function App() {
               <ParallaxHeroImages images={images} className="" />
               <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center gap-4 px-4 text-center">
                 <h1 className="text-4xl font-bold tracking-tight text-neutral-800 drop-shadow-[0_0_20px_rgba(255,255,255,0.8)] md:text-6xl dark:text-neutral-100 dark:drop-shadow-[0_0_20px_rgba(0,0,0,0.8)]">
-                  State of the art, cutting edge images, everywhere.
+                  Projects
                 </h1>
                 <p className="max-w-md text-neutral-600 drop-shadow-[0_0_10px_rgba(255,255,255,0.6)] dark:text-neutral-400 dark:drop-shadow-[0_0_10px_rgba(0,0,0,0.6)]">
-                  Move your mouse to see the parallax effect. Images at different depths
-                  move at different speeds.
+                  A collection of web and mobile applications that have been developed
                 </p>
               </div>
             </div>
@@ -134,7 +134,8 @@ function App() {
         </section>
 
         <section id="certificates" className="relative z-10 w-full min-h-screen bg-neutral-950">
-          <HeroParallax products={products}/>
+          {/* <HeroParallax products={products}/> */}
+          <HoverEffect items={projects} className="px-5 text-center" />
         </section>
       </main>
     </div>
