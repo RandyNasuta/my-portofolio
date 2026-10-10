@@ -6,7 +6,6 @@ export const navItems = [
     { name: "About Me", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Certificates", link: "#certificates" },
-    { name: "Contacts", link: "#contacts" },
     { name: "Curriculum Vitae", link: "/cv.pdf" },
 ];
 
@@ -75,6 +74,10 @@ export const images = [
     {
         src: "src/assets/projects/perbana.png",
         link: "https://github.com/RandyNasuta/Perbana"
+    },
+    {
+        src: "src/assets/projects/easywakeup.png",
+        link: "https://github.com/RandyNasuta/Easy-Wake-Up"
     },
 ];
 
