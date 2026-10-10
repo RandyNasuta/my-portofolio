@@ -16,7 +16,7 @@ export const stickyContent = [
             "A Computer Science graduate from Bina Nusantara University specializing in Android Application development. Skilled in Java, Kotlin, and PHP, with experience developing maintainable applications using MVVM architecture and RESTful APIs.",
         content: (
             <div className="relative h-full w-full overflow-hidden rounded-lg border border-white/10 bg-slate-900/60 p-2 backdrop-blur-md flex items-center justify-center">
-                <img src="src/assets/profile.jpg" alt="Profile" className="h-full w-full object-cover rounded-md" />
+                <img src="/assets/profile.jpg" alt="Profile" className="h-full w-full object-cover rounded-md" />
             </div>
         ),
     },
@@ -68,15 +68,15 @@ export const stickyContent = [
 
 export const images = [
     {
-        src: "src/assets/projects/tokoperabot.png",
+        src: "/assets/projects/tokoperabot.png",
         link: "https://github.com/RandyNasuta/tokoperabot"
     },
     {
-        src: "src/assets/projects/perbana.png",
+        src: "/assets/projects/perbana.png",
         link: "https://github.com/RandyNasuta/Perbana"
     },
     {
-        src: "src/assets/projects/easywakeup.png",
+        src: "/assets/projects/easywakeup.png",
         link: "https://github.com/RandyNasuta/Easy-Wake-Up"
     },
 ];
@@ -85,52 +85,52 @@ export const products = [
     {
         title: "Belajar Dasar Pemrograman JavaScript",
         link: "https://www.dicoding.com/certificates/1OP82GV3LPQK",
-        thumbnail: "src/assets/certificate/certificate_1.jpg",
+        thumbnail: "/assets/certificate/certificate_1.jpg",
     },
     {
         title: "Memulai Pemrograman dengan Python",
         link: "https://www.dicoding.com/certificates/4EXG7O9YDPRL",
-        thumbnail: "src/assets/certificate/certificate_2.jpg",
+        thumbnail: "/assets/certificate/certificate_2.jpg",
     },
     {
         title: "Belajar Dasar Structured Query Language (SQL)",
         link: "https://www.dicoding.com/certificates/2VX34V91NZYQ",
-        thumbnail: "src/assets/certificate/certificate_3.jpg",
+        thumbnail: "/assets/certificate/certificate_3.jpg",
     },
     {
         title: "Belajar Dasar Data Science",
         link: "https://www.dicoding.com/certificates/0LZ04YL6NP65",
-        thumbnail: "src/assets/certificate/certificate_4.jpg",
+        thumbnail: "/assets/certificate/certificate_4.jpg",
     },
     {
         title: "Belajar Prinsip Pemrograman SOLID",
         link: "https://www.dicoding.com/certificates/07Z68Q6YWXQR",
-        thumbnail: "src/assets/certificate/certificate_5.jpg",
+        thumbnail: "/assets/certificate/certificate_5.jpg",
     },
     {
         title: "Belajar Membuat Aplikasi Android untuk Pemula",
         link: "https://www.dicoding.com/certificates/L4PQ85652ZO1",
-        thumbnail: "src/assets/certificate/certificate_6.jpg",
+        thumbnail: "/assets/certificate/certificate_6.jpg",
     },
     {
         title: "Memulai Pemrograman dengan Kotlin",
         link: "https://www.dicoding.com/certificates/MRZML8J8NXYQ",
-        thumbnail: "src/assets/certificate/certificate_7.jpg",
+        thumbnail: "/assets/certificate/certificate_7.jpg",
     },
     {
         title: "Java (Basic) Certificate",
         link: "https://www.hackerrank.com/certificates/d0417eabca34",
-        thumbnail: "src/assets/certificate/certificate_8.png",
+        thumbnail: "/assets/certificate/certificate_8.png",
     },
     {
         title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
         link: "https://www.dicoding.com/certificates/72ZDOJ4L6XYW",
-        thumbnail: "src/assets/certificate/certificate_9.jpg",
+        thumbnail: "/assets/certificate/certificate_9.jpg",
     },
     {
         title: "Memulai Pemrograman dengan Dart",
         link: "https://www.dicoding.com/certificates/4EXG532MQXRL",
-        thumbnail: "src/assets/certificate/certificate_10.jpg",
+        thumbnail: "/assets/certificate/certificate_10.jpg",
     },
 ];
 
@@ -139,7 +139,7 @@ export const projects = [
         title: "Belajar Dasar Pemrograman JavaScript",
         description: (
             <img
-                src="src/assets/certificate/certificate_1.jpg"
+                src="/assets/certificate/certificate_1.jpg"
                 alt="Belajar Dasar Pemrograman JavaScript"
                 loading="lazy"
                 decoding="async"
@@ -151,7 +151,7 @@ export const projects = [
         title: "Memulai Pemrograman dengan Python",
         description: (
             <img
-                src="src/assets/certificate/certificate_2.jpg"
+                src="/assets/certificate/certificate_2.jpg"
                 alt="Memulai Pemrograman dengan Python"
                 loading="lazy"
                 decoding="async"
@@ -163,7 +163,7 @@ export const projects = [
         title: "Belajar Dasar Structured Query Language (SQL)",
         description: (
             <img
-                src="src/assets/certificate/certificate_3.jpg"
+                src="/assets/certificate/certificate_3.jpg"
                 alt="Belajar Dasar Structured Query Language (SQL)"
                 loading="lazy"
                 decoding="async"
@@ -175,7 +175,7 @@ export const projects = [
         title: "Belajar Dasar Data Science",
         description: (
             <img
-                src="src/assets/certificate/certificate_4.jpg"
+                src="/assets/certificate/certificate_4.jpg"
                 alt="Belajar Dasar Data Science"
                 loading="lazy"
                 decoding="async"
@@ -187,7 +187,7 @@ export const projects = [
         title: "Belajar Prinsip Pemrograman SOLID",
         description: (
             <img
-                src="src/assets/certificate/certificate_5.jpg"
+                src="/assets/certificate/certificate_5.jpg"
                 alt="Belajar Prinsip Pemrograman SOLID"
                 loading="lazy"
                 decoding="async"
@@ -199,7 +199,7 @@ export const projects = [
         title: "Belajar Membuat Aplikasi Android untuk Pemula",
         description: (
             <img
-                src="src/assets/certificate/certificate_6.jpg"
+                src="/assets/certificate/certificate_6.jpg"
                 alt="Belajar Membuat Aplikasi Android untuk Pemula"
                 loading="lazy"
                 decoding="async"
@@ -211,7 +211,7 @@ export const projects = [
         title: "Memulai Pemrograman dengan Kotlin",
         description: (
             <img
-                src="src/assets/certificate/certificate_7.jpg"
+                src="/assets/certificate/certificate_7.jpg"
                 alt="Memulai Pemrograman dengan Kotlin"
                 loading="lazy"
                 decoding="async"
@@ -223,7 +223,7 @@ export const projects = [
         title: "Java (Basic) Certificate",
         description: (
             <img
-                src="src/assets/certificate/certificate_8.png"
+                src="/assets/certificate/certificate_8.png"
                 alt="Java (Basic) Certificate"
                 loading="lazy"
                 decoding="async"
@@ -235,7 +235,7 @@ export const projects = [
         title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
         description: (
             <img
-                src="src/assets/certificate/certificate_9.jpg"
+                src="/assets/certificate/certificate_9.jpg"
                 alt="Belajar Membuat Aplikasi Flutter untuk Pemula"
                 loading="lazy"
                 decoding="async"
@@ -247,7 +247,7 @@ export const projects = [
         title: "Memulai Pemrograman dengan Dart",
         description: (
             <img
-                src="src/assets/certificate/certificate_10.jpg"
+                src="/assets/certificate/certificate_10.jpg"
                 alt="Memulai Pemrograman dengan Dart"
                 loading="lazy"
                 decoding="async"
