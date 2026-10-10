@@ -15,7 +15,7 @@ function App() {
     <div className="relative w-full min-h-screen bg-neutral-950 text-white overflow-x-hidden">
       <Navbar className="fixed inset-x-0 z-50">
         <NavBody>
-          <NavbarLogo />
+          {/* <NavbarLogo /> */}
           <NavItems items={navItems} />
         </NavBody>
       </Navbar>
