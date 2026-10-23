@@ -7,7 +7,7 @@ import { BackgroundLines } from './components/ui/background-lines';
 import { StickyScroll } from './components/ui/sticky-scroll-reveal';
 import { ParallaxHeroImages } from './components/ui/parallax-hero-images';
 import { HeroParallax } from './components/ui/hero-parallax';
-import { navItems, stickyContent, projces, certificates } from './utils/constants';
+import { navItems, stickyContent, projects, certificates } from './utils/constants';
 import { HoverEffect } from './components/ui/hover-effect';
 
 function App() {
