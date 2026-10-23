@@ -66,87 +66,79 @@ export const stickyContent = [
     },
 ];
 
-export const images = [
-    {
-        src: "/assets/projects/tokoperabot.png",
-        link: "https://github.com/RandyNasuta/tokoperabot"
-    },
+export const projects = [
     {
         src: "/assets/projects/perbana.png",
         link: "https://github.com/RandyNasuta/Perbana"
     },
     {
+        src: "/assets/projects/protek.png",
+        link: "https://github.com/RandyNasuta/Protek"
+    },
+    {
         src: "/assets/projects/easywakeup.png",
         link: "https://github.com/RandyNasuta/Easy-Wake-Up"
     },
-];
-
-export const products = [
     {
-        title: "Belajar Dasar Pemrograman JavaScript",
-        link: "https://www.dicoding.com/certificates/1OP82GV3LPQK",
-        thumbnail: "/assets/certificate/certificate_1.jpg",
-    },
-    {
-        title: "Memulai Pemrograman dengan Python",
-        link: "https://www.dicoding.com/certificates/4EXG7O9YDPRL",
-        thumbnail: "/assets/certificate/certificate_2.jpg",
-    },
-    {
-        title: "Belajar Dasar Structured Query Language (SQL)",
-        link: "https://www.dicoding.com/certificates/2VX34V91NZYQ",
-        thumbnail: "/assets/certificate/certificate_3.jpg",
-    },
-    {
-        title: "Belajar Dasar Data Science",
-        link: "https://www.dicoding.com/certificates/0LZ04YL6NP65",
-        thumbnail: "/assets/certificate/certificate_4.jpg",
-    },
-    {
-        title: "Belajar Prinsip Pemrograman SOLID",
-        link: "https://www.dicoding.com/certificates/07Z68Q6YWXQR",
-        thumbnail: "/assets/certificate/certificate_5.jpg",
-    },
-    {
-        title: "Belajar Membuat Aplikasi Android untuk Pemula",
-        link: "https://www.dicoding.com/certificates/L4PQ85652ZO1",
-        thumbnail: "/assets/certificate/certificate_6.jpg",
-    },
-    {
-        title: "Memulai Pemrograman dengan Kotlin",
-        link: "https://www.dicoding.com/certificates/MRZML8J8NXYQ",
-        thumbnail: "/assets/certificate/certificate_7.jpg",
-    },
-    {
-        title: "Java (Basic) Certificate",
-        link: "https://www.hackerrank.com/certificates/d0417eabca34",
-        thumbnail: "/assets/certificate/certificate_8.png",
-    },
-    {
-        title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
-        link: "https://www.dicoding.com/certificates/72ZDOJ4L6XYW",
-        thumbnail: "/assets/certificate/certificate_9.jpg",
-    },
-    {
-        title: "Memulai Pemrograman dengan Dart",
-        link: "https://www.dicoding.com/certificates/4EXG532MQXRL",
-        thumbnail: "/assets/certificate/certificate_10.jpg",
+        src: "/assets/projects/tokoperabot.png",
+        link: "https://github.com/RandyNasuta/tokoperabot"
     },
 ];
 
-export const projects = [
-    {
-        title: "Belajar Dasar Pemrograman JavaScript",
-        description: (
-            <img
-                src="/assets/certificate/certificate_1.jpg"
-                alt="Belajar Dasar Pemrograman JavaScript"
-                loading="lazy"
-                decoding="async"
-            />
-        ),
-        link: "https://www.dicoding.com/certificates/1OP82GV3LPQK",
-    },
+// export const products = [
+//     {
+//         title: "Memulai Pemrograman dengan Python",
+//         link: "https://www.dicoding.com/certificates/NVP7WQEWRZR0",
+//         thumbnail: "/assets/certificate/certificate_2.jpg",
+//     },
+//     {
+//         title: "Belajar Dasar Pemrograman JavaScript",
+//         link: "https://www.dicoding.com/certificates/1OP82GV3LPQK",
+//         thumbnail: "/assets/certificate/certificate_1.jpg",
+//     },
+//     {
+//         title: "Belajar Dasar Structured Query Language (SQL)",
+//         link: "https://www.dicoding.com/certificates/2VX34V91NZYQ",
+//         thumbnail: "/assets/certificate/certificate_3.jpg",
+//     },
+//     {
+//         title: "Belajar Dasar Data Science",
+//         link: "https://www.dicoding.com/certificates/0LZ04YL6NP65",
+//         thumbnail: "/assets/certificate/certificate_4.jpg",
+//     },
+//     {
+//         title: "Belajar Prinsip Pemrograman SOLID",
+//         link: "https://www.dicoding.com/certificates/07Z68Q6YWXQR",
+//         thumbnail: "/assets/certificate/certificate_5.jpg",
+//     },
+//     {
+//         title: "Belajar Membuat Aplikasi Android untuk Pemula",
+//         link: "https://www.dicoding.com/certificates/L4PQ85652ZO1",
+//         thumbnail: "/assets/certificate/certificate_6.jpg",
+//     },
+//     {
+//         title: "Memulai Pemrograman dengan Kotlin",
+//         link: "https://www.dicoding.com/certificates/MRZML8J8NXYQ",
+//         thumbnail: "/assets/certificate/certificate_7.jpg",
+//     },
+//     {
+//         title: "Java (Basic) Certificate",
+//         link: "https://www.hackerrank.com/certificates/d0417eabca34",
+//         thumbnail: "/assets/certificate/certificate_8.png",
+//     },
+//     {
+//         title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
+//         link: "https://www.dicoding.com/certificates/72ZDOJ4L6XYW",
+//         thumbnail: "/assets/certificate/certificate_9.jpg",
+//     },
+//     {
+//         title: "Memulai Pemrograman dengan Dart",
+//         link: "https://www.dicoding.com/certificates/4EXG532MQXRL",
+//         thumbnail: "/assets/certificate/certificate_10.jpg",
+//     },
+// ];
+
+export const certificates = [
     {
         title: "Memulai Pemrograman dengan Python",
         description: (
@@ -158,6 +150,18 @@ export const projects = [
             />
         ),
         link: "https://www.dicoding.com/certificates/4EXG7O9YDPRL",
+    },
+    {
+        title: "Belajar Dasar Pemrograman JavaScript",
+        description: (
+            <img
+                src="/assets/certificate/certificate_1.jpg"
+                alt="Belajar Dasar Pemrograman JavaScript"
+                loading="lazy"
+                decoding="async"
+            />
+        ),
+        link: "https://www.dicoding.com/certificates/1OP82GV3LPQK",
     },
     {
         title: "Belajar Dasar Structured Query Language (SQL)",

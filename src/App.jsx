@@ -7,7 +7,7 @@ import { BackgroundLines } from './components/ui/background-lines';
 import { StickyScroll } from './components/ui/sticky-scroll-reveal';
 import { ParallaxHeroImages } from './components/ui/parallax-hero-images';
 import { HeroParallax } from './components/ui/hero-parallax';
-import { navItems, stickyContent, images, projects } from './utils/constants';
+import { navItems, stickyContent, projces, certificates } from './utils/constants';
 import { HoverEffect } from './components/ui/hover-effect';
 
 function App() {
@@ -120,7 +120,7 @@ function App() {
         <section id="projects" className="relative z-10 w-full min-h-screen bg-neutral-900">
           <div className="w-full h-min-screen mx-auto">
             <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-neutral-50 dark:bg-neutral-900">
-              <ParallaxHeroImages images={images} className="" />
+              <ParallaxHeroImages images={projects} className="" />
               <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center gap-4 px-4 text-center">
                 <h1 className="text-4xl font-bold tracking-tight text-neutral-800 drop-shadow-[0_0_20px_rgba(255,255,255,0.8)] md:text-6xl dark:text-neutral-100 dark:drop-shadow-[0_0_20px_rgba(0,0,0,0.8)]">
                   Projects
@@ -135,7 +135,7 @@ function App() {
 
         <section id="certificates" className="relative z-10 w-full min-h-screen bg-neutral-950">
           {/* <HeroParallax products={products}/> */}
-          <HoverEffect items={projects} className="px-5 text-center" />
+          <HoverEffect items={certificates} className="px-5 text-center" />
         </section>
       </main>
     </div>
