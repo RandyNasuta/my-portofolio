@@ -6,7 +6,7 @@ export const navItems = [
     { name: "About Me", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Certificates", link: "#certificates" },
-    { name: "Curriculum Vitae", link: "/cv.pdf" },
+    { name: "Curriculum Vitae", link: "/cv2.pdf" },
 ];
 
 export const stickyContent = [
