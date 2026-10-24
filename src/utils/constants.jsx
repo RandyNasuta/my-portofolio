@@ -149,7 +149,7 @@ export const certificates = [
                 decoding="async"
             />
         ),
-        link: "https://www.dicoding.com/certificates/4EXG7O9YDPRL",
+        link: "https://www.dicoding.com/certificates/NVP7WQEWRZR0",
     },
     {
         title: "Belajar Dasar Pemrograman JavaScript",
